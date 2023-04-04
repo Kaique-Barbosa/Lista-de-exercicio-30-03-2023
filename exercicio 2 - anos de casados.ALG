@@ -1,10 +1,10 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Kaique Barbosa
 // Data atual  : 30/03/2023
-// SEGUDNA QUESTÂO
+// SEGUDNA QUESTÃ‚O
 Var
 nome, sexo:caracter
 estadoCivil:caracter
@@ -20,22 +20,26 @@ leia(sexo)
 escreval("Qual seu estado civil?")
 leia(estadoCivil)
 
-//parte lógica
+limpatela
+
+//parte lÃ³gica
 
 se (sexo = "F" ) e (estadoCivil = "casada") entao
-    escreval("Quanto anos está casada? ")
+    escreval("Quanto anos estÃ¡ casada? ")
     leia(tempoCasada)
 fimse
 //fim PARTE LOGICA
 
+limpatela
+
 // MOSTRAR DADOS
 
-escreval("O seu nome é: ", nome)
-escreval("O seu sexo é: ", sexo)
-escreval("O seu estado civil é:", estadoCivil)
+escreval("O seu nome Ã©: ", nome)
+escreval("O seu sexo Ã©: ", sexo)
+escreval("O seu estado civil Ã©:", estadoCivil)
 
  se (tempoCasada = "casado") ou (tempoCasada = "casado") entao
-  escreval("O seu tempo de casamento é", tempoCasada)
+  escreval("O seu tempo de casamento Ã©", tempoCasada)
  fimse
 //FIM MOSTRAR DADOS
 
