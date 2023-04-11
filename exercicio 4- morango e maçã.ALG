@@ -34,7 +34,7 @@ Inicio
          precoMorango <- 2.20
       fimse
       
-      // CALCULO DO PREÇO DO MORANGO E QUANTIDADE COMPRADA
+      // CALCULO DO PREÃ‡O DO MORANGO E QUANTIDADE COMPRADA
       valorTotal <- (precoMorango * quantidadeComprada)
       //FIM DO CALCULO
       
@@ -46,8 +46,8 @@ Inicio
    fimse
 // FIM DO ALGORITIMO  MORANGO
 
- // O ALGORITIMO CASO A FRUTA SEJA MAÇÃ
-   se (qualFruta = "maca") ou (qualFruta = "maçã") ou (qualFruta = "maça") entao
+ // O ALGORITIMO CASO A FRUTA SEJA MAÃ‡Ãƒ
+   se (qualFruta = "maca") ou (qualFruta = "maÃ§Ã£") ou (qualFruta = "maÃ§a") entao
 
       // DESCONTO PARA ACIMA DE 5KG
       se (quantidadeComprada >= 5) entao
@@ -55,7 +55,7 @@ Inicio
          precoMaca <- 1.50
       fimse
 
-      // CALCULO DO PREÇO DA MAÇÃ E QUANTIDADE COMPRADA
+      // CALCULO DO PREÃ‡O DA MAÃ‡Ãƒ E QUANTIDADE COMPRADA
       valorTotal <- (precoMaca * quantidadeComprada)
       //FIM DO CALCULO
 
@@ -65,7 +65,7 @@ Inicio
       fimse
 
    fimse
-// FIM DO ALGORITIMO  MORANGO
+// FIM DO ALGORITIMO MAÃ‡Ãƒ
 
 
   escreval("Foi copmprado a quantidade de ", quantidadeComprada," ", qualFruta )
