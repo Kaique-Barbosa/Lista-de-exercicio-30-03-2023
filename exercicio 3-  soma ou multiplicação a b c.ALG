@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o] 
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Kaique Barbosa
 // Data atual  : 30/03/2023
 // TERCEIRA ATIVIDADE
@@ -23,5 +23,5 @@ se (a = b) entao
   c <- (a * b)
 fimse
   
- escreval ("O resultado é: ", c)
+ escreval ("O resultado Ã©: ", c)
 Fimalgoritmo
