@@ -1,7 +1,7 @@
 Algoritmo "REPITA"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : REPITA
+// DescriÃ§Ã£o   : REPITA
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 12/04/2023
 //treinando o repita
@@ -21,11 +21,11 @@ Inicio
 
 
 repita
-  escreval("Digite sua média")
+  escreval("Digite sua mÃ©dia")
   leia(media)
   
 ate (media >= 0) e (media <= 10)
 
-
+escreval("A media final Ã©: ", media)
 
 Fimalgoritmo
