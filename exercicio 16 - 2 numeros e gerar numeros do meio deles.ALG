@@ -19,8 +19,8 @@ leia(n2)
 limpatela
 
 para cont de n1 ate n2 faca
-     resultado <- (resultado +1)
-     escreval(resultado)
+    // resultado <- (resultado +1)
+     escreval(cont)
 fimpara
 
 
