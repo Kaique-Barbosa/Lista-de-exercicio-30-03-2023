@@ -1,12 +1,12 @@
 Algoritmo "lista exercicio 2 atividade 2"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 12/04/2023
 
 //4. Escreva um algoritmo que leia 5 valores inteiros e ao final exiba:
-//a) a soma dos números positivos;
+//a) a soma dos nÃºmeros positivos;
 //b) a quantidade de valores negativos.
 
 Var
@@ -26,7 +26,7 @@ para cont de 1 ate 5 faca
    fimse
 fimpara
 
-  escreval("A soma dos numeros inteiro foi: ", soma)
+  escreval("A soma dos numeros positivos foram: ", soma)
   escreval()
   escreval("E")
   escreval()
