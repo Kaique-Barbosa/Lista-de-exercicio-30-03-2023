@@ -1,7 +1,7 @@
 Algoritmo "lista exercicio 2 atividade 3"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : 5. Faça um algoritmo que escreva na tela os números de um número inicial a um número final. Os números inicial e final devem ser informados pelo usuário.
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Antonio Carlos Nicolodi
+// DescriÃ§Ã£o   : 5. FaÃ§a um algoritmo que escreva na tela os nÃºmeros de um nÃºmero inicial a um nÃºmero final. Os nÃºmeros inicial e final devem ser informados pelo usuÃ¡rio.
 // Autor(a)    : kaique Barbosa
 // Data atual  : 12/04/2023
 Var
@@ -18,10 +18,17 @@ leia(n2)
 
 limpatela
 
-para cont de n1 ate n2 faca
-    // resultado <- (resultado +1)
-     escreval(cont)
-fimpara
+se (n1) < (n2)  entao
+   para cont de n1 ate n2 passo 1 faca
+       // resultado <- (resultado +1)
+        escreval(cont)
+   fimpara
+senao
+   para cont de n1 ate n2 passo -1 faca
+       // resultado <- (resultado -1)
+        escreval(cont)
+   fimpara
+fimse
 
 
 Fimalgoritmo
